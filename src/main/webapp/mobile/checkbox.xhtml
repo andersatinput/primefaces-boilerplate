@@ -1,0 +1,23 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:pm="http://primefaces.org/mobile"
+      template="/templates/mobile.xhtml">
+      
+    <ui:define name="content">
+
+      <pm:view swatch="b" id="checkbox">
+        <pm:header title="Header"/>
+        <pm:content>
+          <h:form>
+            <p:selectBooleanCheckbox value="#{booleanBean.booleanValue}" />
+            <p:commandButton styleClass="red" value="this isn't a red button" />
+          </h:form>
+        </pm:content>
+        <pm:footer />
+      </pm:view>
+
+    </ui:define>
+      
+</ui:composition>

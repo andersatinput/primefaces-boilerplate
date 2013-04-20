@@ -50,7 +50,12 @@
 		<dependency>  
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>  
-			<version>3.3</version>  
+			<version>3.4.2</version>  
+		</dependency> 
+		<dependency>  
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces-mobile</artifactId>  
+			<version>0.9.3</version>  
 		</dependency> 
 	</dependencies>
 	
